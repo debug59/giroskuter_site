@@ -1,0 +1,997 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    height: 877px;
+}
+
+.container{
+    margin: auto;
+    max-width: 1134px;
+    width: 90%;
+}
+
+.number>p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button-number {
+    width: 184px;
+    height: 37px;
+    background-color: #FFA019;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+}
+
+.header>p{
+    font-size: 30px;
+    
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+}
+
+.text-ul {
+    margin: 10px 10px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.number{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding-top: 10px;
+}
+
+.color:first-child{border-bottom: rgba(0, 0, 0, 0.2) solid 1px;}
+
+.color{background-color: white}
+
+.My-Giro{
+    text-align: center;
+    color:white;
+    display: flex;
+    height: 750px;
+}
+
+.text-MyGiro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.text-MyGiro>h1{
+    font-size: 56px;
+    font-weight: lighter;
+}
+
+.text-MyGiro>p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.button-catalog{
+    text-decoration: none;
+    background-color: white;
+    width: 140px;
+    color:black;
+    font-weight: bold;
+    padding: 21px 0;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.advantage-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.Polygon {
+    padding: 15px 0;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-item{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+.AboutUs{margin-top: 30px;}
+
+.block-Subscribe{
+    background-color: #FFA019;
+    color: white;
+    height: 94px;
+    display: flex;
+    align-items:center;
+}
+
+
+.Subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.text-Subscribe{
+    width: 250px;
+    margin-right: 11px;
+}
+
+.input{
+    width: 241px;
+    height: 42px;
+    background-color: #FFA019;
+    border:white solid 1px;
+    margin-right: 11px;
+}
+
+input::placeholder{
+    color:white;
+    padding-left: 25px;
+}
+
+.button-subscribe{
+    width: 241px;
+    height: 42px;
+    background-color: white;
+    border: none;
+    color:black;
+}
+
+.peculiarities{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.ul-peculiarities{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.plus::before {
+    content: "+";
+    margin-right: 5px;
+}
+
+.minus::before {
+    content: "-";
+    margin-right: 5px;
+}
+
+.AboutUs-text{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.catalog{ 
+    background-color: #FBFBFB;
+    height: 730px;
+}
+
+.catalog-block{ margin-top: 60px;}
+
+.nav-catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-catalog>p{
+    margin-top: 60px;
+}
+
+.catalog-nav{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.catalog-nav>p{
+    transition: all 0.1s ease;
+}
+
+.catalog-nav>p:hover{
+    background-color: #FFA019;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block-cards{
+    margin-top: 60px;
+    display: flex;
+    font-size: 16px;
+    font-weight: lighter;
+    gap: 30px;
+}
+
+.card{
+    background-color: white;
+    height: 400px;
+    width: 261px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card>svg{margin-top: 10px;}
+
+.card>p{
+    margin-left: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.consultant{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-consultant{
+    display: flex;
+}
+
+.block-consultant{display: flex;}
+
+.info-consultant{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 177px;
+    margin-left: 31px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.info-consultant>button{
+    margin-top: 20px;
+    background-color: #FFA019;
+    border: none;
+    border-radius: 10px;
+    width: 79px;
+    height: 30px;
+    color: white;
+    margin-left: 29px;
+}
+
+.category-consultant{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.brands{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    color: #9B9B9B;
+    justify-content: space-between;
+    background-color: #fbfbfb;
+    height: 90px;
+    align-items: center;
+}
+
+.brands>p:first-child{margin-left: 90px;}
+.brands>p:last-child{margin-right: 90px;}
+
+.info{height: 506px;}
+
+.info-card{
+    display: flex;
+}
+
+.img-info,.img-info1,.img-info2,.img-info3{
+    width: 261px;
+    height: 261px;
+    display: flex;
+    text-align: center;
+    align-items:center;
+}
+
+.info-card{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    gap: 30px;
+}
+
+.text-img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-info{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image 1.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-info1{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image\ 2.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-info2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image\ 3.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-info3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/image\ 4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color:#FBFBFB;
+    color: #8191A6;
+    font-style: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    width: 340px;
+}
+
+.footer-text>p{
+    margin-bottom: 26px;
+}
+
+.footer-text>p:last-child{
+    margin-top: 50px;
+}
+.footer-nav{
+    display: flex;
+    gap: 54px;
+}
+
+.footer-ul>li>a{
+    text-decoration: none;
+    color:#8191A6;
+}
+
+.footer-ul>li{
+    margin-top: 15px;
+}
+
+.footer-ul>li:first-child{
+    margin-top: 0;
+    font-weight: bold;
+    color:black;
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+        min-height: 600px;
+    }
+
+    .My-Giro {
+        height: auto;
+        min-height: 500px;
+        padding: 20px 0;
+    }
+
+    .text-MyGiro > h1 {
+        font-size: 42px;
+    }
+
+    .text-MyGiro > p {
+        font-size: 18px;
+    }
+
+    .advantage-item {
+        gap: 40px;
+    }
+
+    .ul-peculiarities {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .block-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 45%;
+        max-width: 300px;
+    }
+
+    .brands {
+        font-size: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .brands > p:first-child,
+    .brands > p:last-child {
+        margin: 0;
+    }
+
+    .info-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-info, .img-info1, .img-info2, .img-info3 {
+        width: 45%;
+        max-width: 300px;
+        margin: 10px;
+        background-repeat: no-repeat;
+    }
+
+    .text-img{
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-nav {
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+        min-height: 600px;
+        background-position: center top; 
+    }
+
+    .My-Giro {
+        height: auto;
+        min-height: 450px;
+        padding: 20px 0;
+    }
+
+    .text-MyGiro > h1 {
+        font-size: 44px;
+    }
+
+    .text-MyGiro > p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .header,
+    .number {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .ul-nav {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .text-ul {
+        margin: 5px;
+    }
+
+    .advantage-text {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .advantage-item {
+        gap: 30px; 
+        justify-content: center;
+    }
+
+    .ul-peculiarities {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Subscribe {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .text-Subscribe {
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .input,
+    .button-subscribe {
+        width: 200px; 
+    }
+
+    .block-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px; 
+    }
+
+    .card {
+        width: calc(50% - 15px); 
+        max-width: 280px;
+        height: auto;
+        min-height: 350px; 
+    }
+
+    .catalog-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .catalog-nav > p {
+        padding: 5px 10px;
+    }
+
+    .catalog-nav > p:hover {
+        padding: 8px 12px;
+        height: auto;
+    }
+
+    .catalog { height: auto; padding-bottom: 80px; }
+
+
+    .block-consultant,
+    .card-consultant {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .info-consultant {
+        width: 200px;
+        max-width: 100%;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .brands {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        padding: 20px 0;
+        font-size: 36px;
+    }
+
+    .brands > p:first-child,
+    .brands > p:last-child {
+        margin: 0; 
+    }
+
+    .info {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .info-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .img-info, .img-info1, .img-info2, .img-info3 {
+        width: calc(50% - 15px);
+        max-width: 280px;
+        height: 250px;
+        margin: 0;
+        background-repeat: no-repeat;
+    }
+
+    .text-img {
+        width: 100%;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-text {
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .footer-nav {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    footer {
+        font-size: 14px; 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+        padding: 0 10px; 
+    }
+
+    header {
+        height: auto;
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header,
+    .number {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 15px 0;
+        gap: 10px;
+    }
+
+    .header > p {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .ul-nav {
+        flex-direction: column;
+        gap: 8px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-ul {
+        margin: 0;
+    }
+
+    .My-Giro {
+        height: auto;
+        min-height: 300px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .text-MyGiro > h1 {
+        font-size: 32px;
+    }
+
+    .text-MyGiro > p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+
+    .button-catalog {
+        width: 140px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .advantage-text,
+    .advantage-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .Polygon {
+        width: auto;
+        justify-content: center;
+    }
+
+    .block-Subscribe {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .Subscribe {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .text-Subscribe {
+        width: 100%;
+        margin: 0;
+    }
+
+    .input,
+    .button-subscribe {
+        width: 100%;
+        max-width: 250px;
+        height: 45px;
+    }
+
+    input::placeholder {
+        padding-left: 15px;
+    }
+
+    .peculiarities {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .ul-peculiarities {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .AboutUs-text {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .catalog {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .nav-catalog {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav-catalog > p {
+        margin: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .catalog-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .catalog-nav > p:hover {
+        padding: 10px 15px;
+    }
+
+    .block-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .card > p,
+    .price {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .consultant {
+        padding: 0 10px;
+    }
+
+    .block-consultant,
+    .card-consultant {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info-consultant {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        overflow: visible;
+    }
+
+    .info-consultant > button {
+        margin: 10px auto 0;
+        width: 100px;
+    }
+
+    .brands {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+        padding: 30px 10px;
+        font-size: 28px;
+    }
+
+    .info-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .img-info, .img-info1, .img-info2, .img-info3 {
+        width: 100%;
+        max-width: 260px;
+        height: 220px;
+        background-repeat: no-repeat;
+    }
+
+    .text-img {
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-text > p {
+        margin-bottom: 15px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-ul {
+        text-align: center;
+    }
+
+    .footer-ul > li {
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .text-MyGiro > h1 {
+        font-size: 26px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .button-number,
+    .button-catalog,
+    .button-subscribe {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .card,
+    .brands {
+        font-size: 24px; 
+    }
+
+    .info-card {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .input,
+    .button-subscribe {
+        height: 40px;
+    }
+
+    .catalog-nav > p {
+        font-size: 14px;
+    }
+}
+
+
+
